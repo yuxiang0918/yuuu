@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+body{
+    font-family: "Shippori Antique", sans-serif;
+    font-size: 18px;
+    color: #121212;
+}
+.innerWrap{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px 0;
+}
+
+header{
+    background: url(./images/bbb.jpg) no-repeat right center/cover;
+}
+.ffosefin{
+    font-family: "Shippori Antique", sans-serif;
+}
+header h1{
+    padding-top: 420px;
+}
+
+header nav{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    z-index: 100;
+    width: 100%;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: rgb(88, 60, 224);
+}
+header nav ul a:hover{
+    color: crimson;
+}
+/* main*/
+main h2{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.5em;
+    margin-bottom: 80px;
+    color: rgb(64, 46, 79);
+}
+.msgSec{
+    background-color: rgb(122, 171, 227);
+}
+.msgSec p{
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+.msgSec p .illust{
+    margin-top: 80px;
+    margin-bottom: 0;
+    position: relative;
+}
+/*Date*/
+.dateSec{
+    background-color: #2ba3ce;
+    padding-bottom: 120px;
+}
+.dateSec .layoutWrap{
+    display: flex;
+}
+.dateSec .layoutWrap >p{
+    flex-basis: 735px;
+}
+.dateSec .layoutWrap >div{
+    flex-basis: 465px;
+    padding-top: 100px;
+}
+.dateSec .dateDetailSec{
+    font-size: 72px;
+    margin: 0 0 -170px -100px;
+    background-color: #2ba3ce;
+    padding: 40px 64px;
+    line-height: 1.2;
+    color: burlywood;
+}
+.world1{font-size: 30px; color: rgb(183, 20, 20);}
+
+
